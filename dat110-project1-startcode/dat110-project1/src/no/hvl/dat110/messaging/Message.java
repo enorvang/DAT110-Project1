@@ -8,7 +8,7 @@ public class Message {
 	private byte[] payload;
 
 	public Message(byte[] payload) {
-		if (payload.length <= 127) {
+		if (payload.length <= MESSAGE_SIZE-1) {
 			this.payload = payload;
 		}else{
 			throw new IllegalArgumentException("Payload size is too large.");
