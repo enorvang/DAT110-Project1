@@ -25,8 +25,7 @@ public class Message {
 
 	public byte[] encapsulate() {
 		
-		byte[] encoded = null;
-		encoded = new byte[MESSAGE_SIZE];
+		byte[] encoded =  new byte[MESSAGE_SIZE];
 		encoded[0] = (byte) payload.length;
 		for(int i = 0; i < payload.length; i++){
 			encoded[i+1] = payload[i];
