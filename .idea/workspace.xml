@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="612f0914-2bcc-4903-89c4-7e67068b4c7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAT110-Project1/no/hvl/dat110/messaging/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAT110-Project1/no/hvl/dat110/messaging/Connection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAT110-Project1/no/hvl/dat110/rpc/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAT110-Project1/no/hvl/dat110/rpc/RPCClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAT110-Project1/no/hvl/dat110/rpc/RPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAT110-Project1/no/hvl/dat110/rpc/RPCServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAT110-Project1/no/hvl/dat110/rpc/RPCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAT110-Project1/no/hvl/dat110/rpc/RPCUtils.class" afterDir="false" />
-    </list>
+    <list default="true" id="612f0914-2bcc-4903-89c4-7e67068b4c7c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dat110-project1-startcode/dat110-project1/src/no/hvl/dat110/rpc/RPCClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="357">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -141,6 +135,15 @@
             <path>
               <item name="DAT110-Project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="DAT110-Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110-project1-startcode" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAT110-Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAT110-Project1" type="462c0819:PsiDirectoryNode" />
               <item name="dat110-project1-testing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -155,7 +158,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580665915396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580815124419" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -496,10 +499,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/dat110-project1-startcode/dat110-project1/src/no/hvl/dat110/rpc/RPCClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="357">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>

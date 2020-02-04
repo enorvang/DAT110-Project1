@@ -22,7 +22,7 @@ public class RPCClient {
 		connection = msgclient.connect();
 
 	}
-	//test
+	
 	public void disconnect() {
 
 		connection.close();
