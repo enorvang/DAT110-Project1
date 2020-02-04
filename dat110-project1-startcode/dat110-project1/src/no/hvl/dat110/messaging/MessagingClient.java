@@ -19,7 +19,7 @@ public class MessagingClient {
 	// connect to messaging server
 	public Connection connect() {
 
-		Socket clientSocket = null;
+		Socket clientSocket;
 		Connection connection = null;
 		try {
 			clientSocket = new Socket(server, port);

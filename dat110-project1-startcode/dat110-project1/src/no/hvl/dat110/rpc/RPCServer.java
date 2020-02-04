@@ -44,8 +44,6 @@ public class RPCServer {
 			byte[] reply = rpcimpl.invoke(m.getData());
 
 			connection.send(new Message(reply));
-
-
 		   
 		   if (rpcid == RPCCommon.RPIDSTOP) {
 			   stop = true;

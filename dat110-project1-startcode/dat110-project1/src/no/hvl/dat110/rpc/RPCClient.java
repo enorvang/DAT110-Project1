@@ -22,16 +22,14 @@ public class RPCClient {
 		connection = msgclient.connect();
 
 	}
-	
+
 	public void disconnect() {
 
 		connection.close();
 	}
 	
 	public byte[] call(byte[] rpcrequest) {
-
 		connection.send(new Message(rpcrequest));
-
 		return connection.receive().getData();
 
 
