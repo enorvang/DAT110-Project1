@@ -25,8 +25,6 @@ public class Controller  {
 		displayclient = new RPCClient(Common.DISPLAYHOST,Common.DISPLAYPORT);
 		sensorclient = new RPCClient(Common.SENSORHOST,Common.SENSORPORT);
 
-
-		// TODO
 		// connect to sensor and display RPC servers
 		sensorclient.connect();
 		displayclient.connect();
@@ -47,10 +45,10 @@ public class Controller  {
 		// TODO:
 		// loop while reading from sensor and write to display via RPC
 		int i = 0;
-		while(i < 20){
+		while(i < N){
 			int temp = sensor.read();
 			try{
-				sleep(2000);
+				sleep(1000);
 			}catch(InterruptedException e){
 				e.printStackTrace();
 			}

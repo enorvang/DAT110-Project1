@@ -5,7 +5,7 @@ import no.hvl.dat110.rpc.RPCUtils;
 
 public class SensorImpl implements RPCImpl {
 
-	static final int RANGE = 20;
+	static final int RANGE = 30;
 
 	public int read() {
 
