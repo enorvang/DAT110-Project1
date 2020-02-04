@@ -34,20 +34,13 @@ public class RPCUtils {
 
 		String decoded = new String(newData);
 
-
-
 		return decoded;
 	}
 
 	public static byte[] marshallVoid(byte rpcid) {
 
-		byte[] encoded;
-
-		// TODO: marshall RPC identifier in case of void type
-
-		if (true) {
-			throw new UnsupportedOperationException(TODO.method());
-		}
+		byte[] encoded = new byte[1];
+		encoded[0] = rpcid;
 
 		return encoded;
 
