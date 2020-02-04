@@ -36,12 +36,13 @@ public class RPCServer {
 		
 		while (!stop) {
 
-			Message m = connection.receive();
-			int rpcid = m.getData()[0];
+			Message receivedMessage = connection.receive();
+			byte[] request = receivedMessage.getData();
+			int rpcid = request[0];
 
 			RPCImpl rpcimpl = services.get(rpcid);
 
-			byte[] reply = rpcimpl.invoke(m.getData());
+			byte[] reply = rpcimpl.invoke(request);
 
 			connection.send(new Message(reply));
 		   

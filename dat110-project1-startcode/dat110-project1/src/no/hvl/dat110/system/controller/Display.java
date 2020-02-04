@@ -15,6 +15,7 @@ public class Display extends RPCStub {
 		byte[] response = rpcclient.call(request);
 
 		String out = RPCUtils.unmarshallString(response);
+
 		System.out.println("Message: " + out);
 
 
